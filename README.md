@@ -46,3 +46,36 @@ Input Dialogue
 Fine-tuned T5 Model
       ↓
 Generated Summary
+
+📊 Dataset
+
+The project uses the SAMSum dataset, which contains human-written summaries of everyday conversations.
+
+                  SAMSum Dataset
+                        │
+                        ▼
+                Data Preprocessing
+                        │
+                        ▼
+              T5 Tokenization
+                        │
+                        ▼
+                T5 Fine-Tuning
+                        │
+                        ▼
+              Trained T5 Model
+                        │
+                        ▼
+              Saved Model & Tokenizer
+                        │
+                        ▼
+              ┌───────────────────┐
+              │    FastAPI API    │
+              │   POST /summarize/│
+              └─────────┬─────────┘
+                        │
+                        ▼
+                Generated Summary
+                        │
+                        ▼
+                HTML Web Interface
