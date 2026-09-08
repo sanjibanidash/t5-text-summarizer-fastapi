@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Trained model
+saved_summary_model/
+
+# Results / generated files
+results/
+
+# Dataset files
+samsum-train.csv
+samsum-validation.csv
+samsum-test.csv
